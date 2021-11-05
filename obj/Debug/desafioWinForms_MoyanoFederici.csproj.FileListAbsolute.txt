@@ -1,0 +1,10 @@
+C:\Users\sstef\Desktop\Programacion\Laboratorio II\Integrador\desafioWinForms_MoyanoFederici\bin\Debug\desafioWinForms_MoyanoFederici.exe.config
+C:\Users\sstef\Desktop\Programacion\Laboratorio II\Integrador\desafioWinForms_MoyanoFederici\bin\Debug\desafioWinForms_MoyanoFederici.exe
+C:\Users\sstef\Desktop\Programacion\Laboratorio II\Integrador\desafioWinForms_MoyanoFederici\bin\Debug\desafioWinForms_MoyanoFederici.pdb
+C:\Users\sstef\Desktop\Programacion\Laboratorio II\Integrador\desafioWinForms_MoyanoFederici\obj\Debug\desafioWinForms_MoyanoFederici.csproj.AssemblyReference.cache
+C:\Users\sstef\Desktop\Programacion\Laboratorio II\Integrador\desafioWinForms_MoyanoFederici\obj\Debug\desafioWinForms_MoyanoFederici.Properties.Resources.resources
+C:\Users\sstef\Desktop\Programacion\Laboratorio II\Integrador\desafioWinForms_MoyanoFederici\obj\Debug\desafioWinForms_MoyanoFederici.csproj.GenerateResource.cache
+C:\Users\sstef\Desktop\Programacion\Laboratorio II\Integrador\desafioWinForms_MoyanoFederici\obj\Debug\desafioWinForms_MoyanoFederici.csproj.CoreCompileInputs.cache
+C:\Users\sstef\Desktop\Programacion\Laboratorio II\Integrador\desafioWinForms_MoyanoFederici\obj\Debug\desafioWinForms_MoyanoFederici.exe
+C:\Users\sstef\Desktop\Programacion\Laboratorio II\Integrador\desafioWinForms_MoyanoFederici\obj\Debug\desafioWinForms_MoyanoFederici.pdb
+C:\Users\sstef\Desktop\Programacion\Laboratorio II\Integrador\desafioWinForms_MoyanoFederici\obj\Debug\desafioWinForms_MoyanoFederici.FormPrincipal.resources
