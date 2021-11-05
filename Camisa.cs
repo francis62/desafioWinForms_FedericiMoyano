@@ -14,5 +14,10 @@ namespace desafioWinForms_MoyanoFederici
         {
             this._esMangaCorta = esMangaCorta;
         }
+
+        public bool EsMangaCorta
+        {
+            get { return this._esMangaCorta; }
+        }
     }
 }

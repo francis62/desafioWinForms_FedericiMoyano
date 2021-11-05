@@ -85,25 +85,31 @@ namespace desafioWinForms_MoyanoFederici
 
         private void CalcularPrecioFinal()
         {
+            Caja caja = new Caja();
+            double precioFinal = 0;
+
             // int.Parse y double.Parse no generaran error porque ya los valide anteriormente
             int cantidadPrendas = int.Parse(txtBoxCantidadProducto.Text);
-            double precioUnitario = double.Parse(txtBoxPrecioProducto.Text);
+            double precioUnitario = Convert.ToDouble(txtBoxPrecioProducto.Text);
 
-            bool prendaEsPremium = rdBtnPrendaPremium.Checked;
+            bool prendaEsPremium = rdBtnPrendaPremium.Checked ? true : false;
 
-            double precioFinal = 0;
             if (rdBtnCamisa.Checked)
             {
                 bool camisaEsMangaCorta = chBoxCamisaMangaCorta.Checked;
-                precioFinal = Caja.Comprar(cantidadPrendas, new Camisa(camisaEsMangaCorta, prendaEsPremium, precioUnitario));
+                Camisa camisa = new Camisa(camisaEsMangaCorta, prendaEsPremium, precioUnitario);
+                precioFinal = caja.ComprarPrendas(cantidadPrendas, camisa);
+                precioFinal = caja.CalcularPrecioFinal(precioFinal, camisa);
             }
             else if (rdBtnPantalon.Checked)
             {
                 bool pantalonEsBermuda = chBoxPantalonBermuda.Checked;
-                precioFinal = Caja.Comprar(cantidadPrendas, new Pantalon(pantalonEsBermuda, prendaEsPremium, precioUnitario));
+                Pantalon pantalon = new Pantalon(pantalonEsBermuda, prendaEsPremium, precioUnitario);
+                precioFinal = caja.ComprarPrendas(cantidadPrendas, pantalon);
+                precioFinal = caja.CalcularPrecioFinal(precioFinal, pantalon);
             }
 
-            labelPrecioFinal.Text = precioFinal.ToString();
+            labelPrecioFinal.Text = String.Format("{0:0.00}", precioFinal);
         }
 
         private string GenerarStringCamisa()

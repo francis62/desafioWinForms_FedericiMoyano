@@ -14,5 +14,10 @@ namespace desafioWinForms_MoyanoFederici
         {
             this._esBermuda = esBermuda;
         }
+
+        public bool EsBermuda
+        {
+            get { return this._esBermuda; }
+        }
     }
 }

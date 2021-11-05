@@ -14,5 +14,10 @@ namespace desafioWinForms_MoyanoFederici
         {
             this._esPremium = esPremium;
         }
+
+        public bool EsPremium
+        {
+            get { return this._esPremium; }
+        }
     }
 }

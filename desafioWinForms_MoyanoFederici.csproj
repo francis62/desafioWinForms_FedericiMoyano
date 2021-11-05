@@ -54,6 +54,8 @@
     <Compile Include="FormPrincipal.Designer.cs">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="ICalculadoraCamisas.cs" />
+    <Compile Include="ICalculadoraPantalones.cs" />
     <Compile Include="Pantalon.cs" />
     <Compile Include="Prenda.cs" />
     <Compile Include="Producto.cs" />
@@ -72,6 +74,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
